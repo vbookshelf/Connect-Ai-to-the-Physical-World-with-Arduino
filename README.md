@@ -6,7 +6,7 @@ This beginner-friendly example will help you quickly grasp the fundamentals of c
 
 <br>
 
-<img src="images/image1.jpg" alt="App screenshot" height="350">
+<img src="images/image1.jpg" alt="Arduino Nano connected to Macbook Air via USB." height="350">
 <p>Arduino Nano</p>
 
 <br>
