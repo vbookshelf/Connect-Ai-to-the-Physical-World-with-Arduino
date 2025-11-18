@@ -4,6 +4,15 @@ The attached notebook and Arduino code is a simple example that shows how to con
 
 This beginner-friendly example will help you quickly grasp the fundamentals of connecting AI to the physical world. 
 
+<br>
+
+<img src="images/image1.jpg" alt="App screenshot" height="350">
+<p>Arduino Nano</p>
+
+<br>
+
+
+
 Please run the notebook locally, on your machine - not via Colab or Kaggle. You can use uv to launch Jupyter Lab locally:
 
 ```
