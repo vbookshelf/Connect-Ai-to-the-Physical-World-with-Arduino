@@ -31,3 +31,9 @@ The included Jupyter Notebook (`example.ipynb`) provides two examples:
     *   Use a Large Language Model (LLM) to interact with the Arduino using natural language. By chatting with Gemini and using function calling, you can type commands like "turn the light on." The model will translate your request into code that controls the Arduino. 
 
 <br>
+
+## Required Hardware
+
+- Ardunio (Uno, Nano or similar) with USB cable
+
+<br>
