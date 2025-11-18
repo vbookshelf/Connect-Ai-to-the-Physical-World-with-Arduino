@@ -45,3 +45,19 @@ Most Arduino boards (like the Uno, Nano, and Mega) are designed to automatically
 However, in an application, this causes an unintended side effects. If you first ask the LLM to turn on the LED, it will execute your instruction. If you then ask the LLM to switch the LED off - you'll see that the LED turns off. However, the LED will be switched off because the board resets - not beacuse the Arduino executed your instruction. 
 
 The way to solve this is to physically disable the auto-reset feature on the Arduino. This allows the Python script to open and close connections without restarting the board, preserving the state of the LED. Auto-reset can be disabled by adding a 10uF capacitor between the RESET and GND pins on your Arduino - negative connected to GND and positive connected to RESET. This capacitor will need to be removed before a new skecth is uploaded to the Arduino, and then reinstalled when the upload is completed.
+
+<br>
+
+## Get started with electronics
+
+The logical nature of electronics is very similar to coding. Therefore, if you enjoy coding the chances are that you'll also enjoy electronics. The most important thing is to have the right teacher. These are the two Udemy courses that I took to get started. 
+
+- Electricity & electronics - Robotics, learn by building<br>
+(Udemy electronics course)<br>
+https://www.udemy.com/course/analog-electronics-robotics-learn-by-building/
+
+- Digital Electronics: Robotics, learn by building module II<br>
+(Udemy electronics course. I suggest skimming forward to module 34 (What is Arduino?))<br>
+https://www.udemy.com/course/digital-electronics-robotics-learn-by-building-module-ii/
+
+<br>
